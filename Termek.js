@@ -2,7 +2,7 @@ import { kedvencLista } from "./Kedvenc.js";
 class Termek{
     #allapot
     constructor(tartalmHely, adat) {
-        
+
         this.tartalmHely = this.tartalmHely;
         this.adat=adat
         this.#allapot = true;
@@ -11,7 +11,7 @@ class Termek{
         const gomb = $("div:last-child button")    
         gomb.on("click",()=>{
            /*  console.log(adat) */
-            adat.append(kedvencLista)
+            adat.push(kedvencLista)
             console.log(kedvencLista)
         }
         )
