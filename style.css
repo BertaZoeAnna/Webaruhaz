@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+  }
+  main {
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  article {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    padding: 15px;
+  }
